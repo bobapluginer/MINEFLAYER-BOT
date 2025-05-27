@@ -1,0 +1,25 @@
+{
+  "name": "minepvp-bot",
+  "version": "1.0.0",
+  "description": "Minecraft бот на mineflayer с PvP и добычей руды по командам",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "mineflayer",
+    "pvp",
+    "automation",
+    "mining"
+  ],
+  "author": "botpluginer",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.15.1",
+    "mineflayer-pathfinder": "^2.1.1",
+    "mineflayer-collectblock": "^1.4.0",
+    "vec3": "^0.1.7"
+  }
+}
